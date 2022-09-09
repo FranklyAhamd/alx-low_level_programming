@@ -1,13 +1,27 @@
-#include <stdio.h>
-/**
+#include <stdio.h>                                                                                                                      
+
+/**                                                                                                                                     
  *
- *  * main - Entry point
+ *  **main-Serves as the entry point for the program                                                                                       
  *
- *   Return: Always 0 (Success)
+ *   **Return:By default returns zero if no erros otherwise returns non-zero value.                                                         
  *
- *  */
-int main(void)
-{
- puts("\"Programming is like building a multilingual puzzle");
- return (0);
+ *    **/                                                                                                                                    
+
+                                                                                                                                        
+
+int main(void)                                                                                                                          
+
+	                                                                                                                                        
+
+{                                                                                                                                       
+
+	                                                                                                                                        
+
+	                puts("\"Programming is like building a multilingual puzzle");                                                           
+
+			                                                                                                                                        
+
+			                        return (0);                                                                                                     
+
 }
