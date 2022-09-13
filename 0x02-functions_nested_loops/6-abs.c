@@ -4,7 +4,12 @@
  *@ab: integer input
  *@ab: integer input
  */
-int _abs(int ab)
+int _abs(int c)
 {
-return (ab * ((ab > 0) - (ab < 0)));
+	if (c > 0 || c == 0)
+	{
+	return (c);
+	}
+	else
+	retun (c *-1);
 }
