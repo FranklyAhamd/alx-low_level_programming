@@ -1,5 +1,5 @@
-#ifndef FRANKLY_AHMAD_INCLUDED
-#define FRANKLY_AHMAD_INCLUDED
+#ifndef HOLBERTON_H_INCLUDED
+#define HOLBERTON_H_INCLUDED
 
 int_putchar(char);
 void print_alphabet(void);
