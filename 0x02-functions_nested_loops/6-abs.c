@@ -5,11 +5,7 @@
  *@ab: integer input
  */
 int _abs(int c)
+	int _abs(int ab)
 {
-	if (c > 0 || c == 0)
-	{
-	return (c);
-	}
-	else
-	retun (c *-1);
+	return (ab * ((ab > 0) - (ab < 0)));
 }
