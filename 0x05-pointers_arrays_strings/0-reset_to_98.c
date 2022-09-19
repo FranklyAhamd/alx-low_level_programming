@@ -2,10 +2,9 @@
 
 /**
  * reset_to_98 - function that takes a pointer to an int as parameter and updates
- * the value pointing to 98
+ * the value points to 98
  *
- * on: This is the entry
- *
+ * On: This is the entry
  */
 
 void reset_to_98(int *n)
