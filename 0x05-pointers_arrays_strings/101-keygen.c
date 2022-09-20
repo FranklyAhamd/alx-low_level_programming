@@ -8,20 +8,20 @@
  *
  *Return: generated password
  */
-
 int main(void)
 {
-char c;
-int x;
+int myrand;
+int count;
+int total;
 
-srand(time(0));
-    while (x <= 2645)
-    {
-    c = rand() % 128;
-    x += c;
-    putchar(c);
-    }
-    putchar(2772 - x);
+srand(time(NULL));
+for (count = 0, total = 2772; total > 122; count++)
+{
+myrand = (rand() % 125) + 1;
+printf("%c", myrand);
+total -= myrand;
+}
+printf("%c", total);
 
-    return (0);
+return (0);
 }
