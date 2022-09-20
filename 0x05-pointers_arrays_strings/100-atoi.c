@@ -9,35 +9,19 @@
  */
 int _atoi(char *s)
 {
-int n, indx;
-unsigned int res;
-int i = 1;
-char new;
+int sign = 1;
+unsigned int num = 0;
 
-n = 0;
-res = 0;
-while (*(s + n) != '\0')
+do 
 {
-new = *(s + n);
-if (new == '-')
-{
-i *= -1;
+if (*s == '-')
+	sign *= -1;
+else if (*s >= '0' && *s <= '9')
+	num = num * 10 + (*s - '0');
+else if (num > 0)
+	break;
 }
-if (new >= '0' && new <= '9')
-{
-indx = n;
-while (*(s + indx) > 47 && *(s + indx) < 58)
-{
-res = (res * 10) + *(s + indx) - '0';
-indx++;
-}
-break;
-}
-n++;
-}
-if (i < 0)
-{
-	res *= i;
-	return (res);
-}
+while (*s++);
+
+return (num * sign);
 }
