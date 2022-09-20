@@ -36,6 +36,8 @@ break;
 n++;
 }
 if (i < 0)
+{
 	res *= i;
-	return (res);
+	return (res)
+}
 }
