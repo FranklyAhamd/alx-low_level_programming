@@ -1,4 +1,4 @@
-#include <stdio.hi>
+#include <main.h>
 /**
  *print_array - this prints array
  *
