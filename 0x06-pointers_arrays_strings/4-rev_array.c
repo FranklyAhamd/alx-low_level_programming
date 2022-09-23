@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * reverse_array - function that reverse content of array
  *@a: array
@@ -8,11 +6,13 @@
 
 void reverse_array(int *a, int n).
 {
-int tmp, index;
-for (index = n - 1; index > n / 2; index--)
+int i;
+int t;
+
+for (i = 0; i < n / 2; i++)
 {
-tmp = a[n - 1 - index];
-a[n - 1 - index] = a[index];
-a[index] = tmp;
+t = a[i];
+a[i] = a[n - i - 1];
+a[n - i - 1] = t;
 }
 }
