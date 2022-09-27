@@ -25,7 +25,7 @@ break;
 }
 if (lent != 0)
 	match++;
-	if (match != lent)
+if (match != lent)
 	return (lent);
 }
 return (0);
