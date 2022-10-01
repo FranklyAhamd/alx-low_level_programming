@@ -3,8 +3,11 @@
 
 /**
  * main - function that prints all arguments it receives
+ *
  * @argc: argument count
+ *
  * @argv: argument vector
+ *
  * Return: returns int
  */
 int main(int argc, char *argv[])
