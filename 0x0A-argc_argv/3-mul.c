@@ -10,15 +10,16 @@
  */
 int main(int argc, char *argv[])
 {
-int m1, m2;
+int a, b, c;
 
 if (argc != 3)
 {
-printf("Error\n");
+puts("Error");
 return (1);
 }
-m1 = atoi(argv[1]);
-m2 = atoi(argv[2]);
-printf("%d\n", m1 * m2);
+a = atoi(argv[1]);
+b = atoi(argv[2]);
+c = a * b;
+printf("%d\n", c);
 return (0);
 }
