@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <stdio.h>
 #include "main.h"
 
@@ -94,5 +93,6 @@ if (!a)
 	free(result);
 	return (0);
 }
+
 
 
