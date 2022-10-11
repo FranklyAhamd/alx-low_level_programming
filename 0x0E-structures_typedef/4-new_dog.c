@@ -30,7 +30,8 @@ return (NULL);
 for (i = 0; i < nl; i++)
 dog->name[i] = name[i];
 dog->age = age;
-for (ol = 0; owner[ol]; ol++);
+for (ol = 0; owner[ol]; ol++)
+;
 ol++;
 dog->owner = malloc(ol * sizeof(char));
 if (dog->owner == NULL)
